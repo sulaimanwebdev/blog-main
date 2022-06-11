@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>what-are-moving-averages-and-exponential-moving-averages-in-stock-&-crypto-trading</title>
+</head>
+<body>
+    <header class="sticky top-0 z-50 text-gray-600 body-font bg-white">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav class="py-2 flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <a class="mr-5 hover:text-gray-900" href="https://screener.plus/#productFeatures">Product Features</a>
+        <a class="mr-5 hover:text-gray-900" href="/pricing/">Pricing</a>
+        </nav>
+        <a href="/" class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img id="logo" style="width: 100px;" src="https://screener.plus/static/images/WebsiteLogoScreenerPlus.png" alt="Screener Plus Logo - Market Screener for Stocks and Cryptocurrencies">
+        </a>
+        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 space-x-4">
+        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" onclick="location.href='/accounts/login/'">Login
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+        </button>
+        <button class="px-6 py-2 text-sm transition-colors duration-300 border-2 rounded-full shadow-xl text-rose-500 border-rose-400 shadow-rose-300/30 hover:bg-rose-500 hover:text-rose-100" onclick="location.href='/accounts/signup/'">Try for free</button>
+        </div>
+        </div>
+        </header>
+
+        <nav class="flex py-3 px-5 text-gray-700 bg-gray-50 rounded-lg border border-gray-200" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-1 md:space-x-3">
+            <li class="inline-flex items-center">
+            <a href="/" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
+            <svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+            Home
+            </a>
+            </li>
+            <li>
+            <div class="flex items-center">
+            <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+            <a href="/blog/" class="ml-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ml-2">Blog</a>
+            </div>
+            </li>
+            <li aria-current="page">
+            <div class="flex items-center">
+            <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+            <span class="ml-1 text-sm font-medium text-gray-400 md:ml-2">
+                What are Moving Averages and Exponential Moving Averages in Stock & Crypto Trading?
+
+                </span>
+            </div>
+            </li>
+            </ol>
+            </nav>
+
+
+         
+            
+
+     <div class="w-full">
+          <img src="images/0_VIn_iIpGcbDLCPlt.png" alt="" class="w-full h-[300px] object-cover position-bottom">
+
+        <div class="max-w-[1000px] px-5 my-10 mx-auto">
+            <div class="text-center text-[37px] mb-14 mt-20 font-bold relative w-fit mx-auto">What are Moving Averages and Exponential Moving Averages in Stock & Crypto Trading?
+
+
+                <div class="absolute -bottom-2 left-0 w-full h-[6px] bg-[#39B54A]"></div></div>
+
+            <div class="text-[18px]">
+                When it comes to trading, there are a variety of different strategies that can be used to make money. Each trader is different, and will often have a unique approach to the markets. However, there are some common techniques that many traders use, one of which is moving averages. <br><br>
+Moving averages can be a useful tool for traders, as they help to smooth out price action and can be used to identify trends. Moving averages or MA is one of the most commonly used technical indicators in trading. It is simply a calculation that takes the average price of a security over a given period.<br><br>
+Now when it comes to Exponential moving averages or EMA, it is a big part of technical analysis and is very commonly used by traders. The reason is that it puts more weight on recent data which makes it more responsive to new information. In this article, we will be digging deep into what moving averages are and how you can use them in your trading. So if you are interested in learning more about MA and EMA, this article is for you!
+
+                
+            </div>
+
+      
+            <div class="flex  items-center justify-center my-24"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E5E7EB" class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+              </svg></div>
+
+
+
+
+
+
+
+
+              <div class="text-center text-[37px] mb-14 mt-20 font-bold relative w-fit mx-auto">So, what exactly is a Moving Average or MA?
+
+
+                <div class="absolute -bottom-2 left-0 w-full h-[6px] bg-[#39B54A]"></div></div>
+
+              <div class="text-[18px]">
+                A moving average is a type of technical indicator that is used by market analysts and investors to forecast the course of a trend. An average is a number that shows how much financial security changes over time. The average is found by adding up all the data points and then dividing that number by the total number of data points. The moving average is a calculation that is based on the latest price data. <br><br>
+The moving average is a technical indicator that indicates the path of an asset's price. Analysts use it to look at support and resistance by analyzing the price changes of security. A moving average represents the previous price action or movement of a security. Investors use this information to determine the potential direction of an asset's price.<br><br>
+It's also known as a lagging indicator because it tracks the price action of the underlying asset to generate a signal or exhibit the direction of a certain trend. Whether it is cryptocurrencies or stocks, the moving average is a popular technical indicator that traders use. It can be used to spot trends, identify support and resistance levels, and even generate buy and sell signals.
+
+
+              </div>
+  
+        
+              <div class="flex  items-center justify-center my-24"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E5E7EB" class="bi bi-three-dots" viewBox="0 0 16 16">
+                  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                </svg></div>
+
+
+
+
+
+
+
+
+
+                
+              <div class="text-center text-[37px] mb-14 mt-20 font-bold relative w-fit mx-auto">What is Exponential Moving Average or EMA?
+
+
+
+                <div class="absolute -bottom-2 left-0 w-full h-[6px] bg-[#39B54A]"></div></div>
+
+              <div class="text-[18px]">
+                EMA, or Exponential Moving Average, is a type of Moving Average that puts more weight on the most recent price points. This makes it more responsive to recent data points. The EMA responds more quickly to recent price changes than the simple moving average. The simple moving average applies equal weight to all price changes in the given period. <br><br>
+                In simple words,  EMA gives more importance to the most recent data points as compared to the past data points.<br><br>
+                The Exponential Moving Average or EMA is used by traders to identify trends, support and resistance levels, and even generate buy and sell signals. It is a popular technical indicator that is used by market analysts and investors to forecast the course of a trend. The EMA is a lagging indicator because it tracks the price action of the underlying asset to generate a signal or exhibit the direction of a certain trend.
+                
+      
+        <div class="font-bold text-[22px] mt-6 mb-6">How to calculate EMA or Exponential Moving Average?</div>
+
+        The formula for calculating the EMA is: <br><br>
+        Closing price x multiplier + EMA (previous day) x (1-multiplier) = EMA
+<br><br>
+
+
+
+<div class="my-8">
+  <div class="font-bold text-[22px] mb-2">1. Closing price:</div>
+  The closing price is the price of the security at the end of the period being analyzed. It means the most recent price.
+
+
+</div>
+
+
+<div class="my-8">
+  <div class="font-bold text-[22px] mb-2">2. Multiplier: </div>
+  The multiplier is the weight that is given to the most recent price. it indicates how much importance should be given to the most recent price.
+</div>
+
+
+
+The multiplier for calculating EMA is: 2 / (Selected Time Period + 1)
+
+
+
+<div class="my-8">
+  <div class="font-bold text-[22px] mb-2">3. EMA (previous day): </div>
+  The EMA of the previous day is the Exponential Moving Average of the security at the end of the period being analyzed.
+
+</div>
+
+
+
+
+
+<div class="my-8">
+  <div class="font-bold text-[22px] mb-2">Example: </div>
+  Let's say you want to calculate the 10-day EMA of XYZ stock.
+
+</div>
+
+
+<div class="font-bold text-[24px] mb-2">The closing prices for the last 12 days are as follows:</div>
+$12, $15, $13, $17, $14, $16, $15, $13, $14, $16, $18, $17
+
+
+
+
+The multiplier for a ten-day EMA would be: <br><br>
+Multiplier = ( Two / ( Selected Time Period(days) + One ) ) = 0.1818
+EMA calculation for day eleven would be:<br><br>
+$18 x 0.1818 + $16(previous EMA) x ( One - 0.1818 ) = $17.09<br><br>
+EMA calculation for day twelve would be:<br><br>
+$17 x 0.1818 + $17.09(previous EMA) x ( One - 0.1818 ) = $17.02
+As you can see, the EMA lags behind the closing price because it is based on past data. However, the EMA is more responsive to recent price changes as compared to SMA because it gives more weight to recent data points.
+
+
+
+
+<img src="images/RSI-Visualisation.png" alt="" class="w-full object-cover position-top max-w-[700px] mx-auto mt-12">
+
+
+
+
+
+
+              </div>
+  
+        
+              <div class="flex  items-center justify-center my-24"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E5E7EB" class="bi bi-three-dots" viewBox="0 0 16 16">
+                  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                </svg></div>
+
+
+
+
+
+
+
+
+
+                  
+              <div class="text-center text-[37px] mb-14 mt-20 font-bold relative w-fit mx-auto">How does the Moving Averages or MA help to buy stocks?
+
+
+                <div class="absolute -bottom-2 left-0 w-full h-[6px] bg-[#39B54A]"></div></div>
+
+              <div class="text-[18px]">
+                A moving average helps you see the trend of a price chart more clearly by filtering out the noise.  For example, if you're looking at a chart of a stock's price over time, and you see that the stock's price is going up and down a lot, it can be hard to tell if it's overall going up or down.
+                But if you look at a moving average of the same stock's price, you'll see that it's much smoother. This makes it easier to tell if the stock is overall going up or down. When the price of a security is above the moving average, it indicates that the security is in an uptrend. Conversely, when the price of a security is below the moving average, it indicates that the security is in a downtrend.
+
+
+
+
+                <br><br>
+
+                <div class="font-bold text-[23px] mb-3">Moving average length</div>
+                Moving average length can also help to generate buy and sell signals. Moving average length is the number of days used to calculate the moving average. <br><br>
+For example, if the price of a security is above its 200-day moving average, it is generally considered to be in an uptrend. And if the price of a security falls below its 200-day moving average, it is generally considered to be in a downtrend.<br><br>
+While there are many different moving averages, the most popular ones are the 50-day moving average, the 100-day moving average, and the 200-day moving average. These are called "longer-term" moving averages because they use a longer period to calculate the average.<br><br>
+There are also "shorter-term" moving averages such as the 20-day moving average and the 50-day moving average. These are used to generate buy and sell signals in a shorter time frame.
+
+
+<br><br><br>
+<div class="font-bold text-[23px] mb-3">Crossovers</div>
+We also have MA crossovers!  A moving average crossover is when two different moving averages of the same security cross each other. <br><br>
+The first type of signal is a price crossover. This happens when the price crosses above or below a moving average and this can be a sign that the trend is changing. <br><br>
+Another strategy is to use two different types of averages on a chart: a longer average and a shorter average. When the shorter-term MA crosses above the longer-term MA, it means that the trend is going up. This phenomenon is also called a golden cross. On the other hand, when the shorter-term MA falls below the longer-term MA, it constitutes a sell signal since it indicates that the trend is turning down, which is known as a dead/death cross.
+
+
+
+
+
+<img src="images/RSI-Visualisation.png" alt="" class="w-full object-cover position-top max-w-[700px] mx-auto mt-12">
+
+
+
+              </div>
+  
+        
+           
+
+
+
+
+
+
+
+              <div class="flex  items-center justify-center my-24"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E5E7EB" class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+              </svg></div>
+
+
+
+
+
+
+
+
+
+                
+            <div class="text-center text-[37px] mb-14 mt-20 font-bold relative w-fit mx-auto">How does the Moving Averages or MA help to buy cryptocurrencies?
+
+
+              <div class="absolute -bottom-2 left-0 w-full h-[6px] bg-[#39B54A]"></div></div>
+
+            <div class="text-[18px]">
+              Cryptocurrencies are at the mercy of the market. The prices go up and down depending on what's going on in the news, in the industry, with the underlying technology, or even a Tweet. This can make it hard to tell if a cryptocurrency is actually in a long-term uptrend or downtrend. That's where moving averages come in. <br><br>
+              Now when it comes to Moving Average or MA, we know that it's lagging. It's based on past data, so it can't predict the future but it can help us to see the trend more clearly. <br><br>
+              For example, let's say that Bitcoin is in a long-term uptrend. Even though the price might go down for a short period, it will eventually start to go up again. This is where a moving average can help us to see the trend more clearly.<br><br>
+              A moving average is simply the average price of a cryptocurrency over a certain period. This means that the moving average is calculated by adding up the prices of a cryptocurrency over a certain number of days and then dividing it by the number of days. This will help you get an idea of where the price is heading both in the long term and short term.
+              
+              </div>
+
+
+
+
+
+
+              <div class="flex  items-center justify-center my-24"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E5E7EB" class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+              </svg></div>
+
+
+
+
+
+
+
+
+                   
+            <div class="text-center text-[37px] mb-14 mt-20 font-bold relative w-fit mx-auto">Most commonly used periods while creating MA by institutions
+
+
+
+              <div class="absolute -bottom-2 left-0 w-full h-[6px] bg-[#39B54A]"></div></div>
+
+            <div class="text-[18px]">
+              One of the most commonly used technical indicators in stock, futures, and crypto trading is the moving average and market analysts and traders use moving averages to help identify trends in price fluctuations. This can help them to understand what is causing prices to go up or down and can help them make better decisions about what stocks or cryptocurrencies to invest in. <br><br>
+              One of the most important aspects of using moving averages is choosing the right time frame or period. The time frame you choose will depend on your investment goals and objectives.
+              
+
+
+
+ <br><br>
+
+              <div class="font-bold text-[24px] mb-2">Some of the most commonly  used periods are:</div>
+The 50-day moving average is used by short-term and long-term investors alike to help them identify trends. <br><br>
+The 100-day moving average is often used by long-term investors to help them make investment decisions.<br><br>
+The 200-day moving average is the most popular moving average among long-term investors.<br><br>
+These are just a few examples of the different time frames that you can use when looking at moving averages. It's important to remember that there is no "right" or "perfect" time frame to use. The most important thing is to choose a time frame that fits your investment goals and objectives.
+There are also other types of periods such as the 5, 10, 20, and 50 days. These time frames are mostly used for spotting short-term market trend changes. These changes also give investors an idea of what might happen in the long term so they can make sound decisions.
+Some traders also use Fibonacci numbers (5, 8, 13, 21...) to choose the length of time for a moving average.<br><br>
+Every trader is different and will use different time frames to help them make investment decisions. The important thing is to find what works best for you and your investment goals.
+
+
+
+<img src="images/macd.png" alt="" class="w-full object-cover position-top max-w-[700px] mx-auto mt-12">
+
+
+              
+              </div>
+
+
+
+
+
+
+
+
+
+              
+
+              <div class="flex  items-center justify-center my-24"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#E5E7EB" class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+              </svg></div>
+
+
+
+
+
+
+
+
+                   
+            <div class="text-center text-[37px] mb-14 mt-20 font-bold relative w-fit mx-auto">How can Screener+ Plus help you create Moving Averages? 
+
+
+
+              <div class="absolute -bottom-2 left-0 w-full h-[6px] bg-[#39B54A]"></div></div>
+
+            <div class="text-[18px]">
+              Screener+ Plus is a powerful stock and cryptocurrency screener that helps you find the best investment opportunities. You can use Screener+ Plus to create custom screens with your own moving averages. <br><br>
+              For example, you could create a screen that only includes stocks or cryptocurrencies with a 50-day moving average above the 200-day moving average. Or you can create a screen with the 50-day moving average crossing above the 200-day moving average.
+              
+
+              <div class="my-8">
+                <div class="font-bold text-[22px] mb-2">Screener+ Plus features</div>
+                Here are some of the key features of  Screener+ Plus:
+
+            </div>
+
+
+
+            <div class="my-8">
+              <div class="font-bold text-[22px] mb-2">1. Create custom screens: </div>
+              Having access to custom screens is one of the most powerful features of Screener+ Plus. You can use custom screens to find investment opportunities that fit your investment goals and objectives so you will be able to make better investment decisions.
+
+
+          </div>
+
+
+
+
+          <div class="my-8">
+            <div class="font-bold text-[22px] mb-2">2. Filter criteria: </div>
+            You can use a variety of filter criteria to find the best investment opportunities. For example, you can use price, volume, moving averages, and other technical indicators to find stocks or cryptocurrencies that are undervalued or overvalued.
+
+        </div>
+
+
+
+        
+        <div class="my-8">
+          <div class="font-bold text-[22px] mb-2">3. Compare moving averages: </div>
+          One of the best ways to find investment opportunities is to compare moving averages. You can use Screener+ Plus to compare the 50-day moving average with the 200-day moving average or the 50-day moving average with the 100-day moving average.
+
+      </div>
+
+
+
+      <div class="my-8">
+        <div class="font-bold text-[22px] mb-2">4. Access to cryptocurrencies: </div>
+        Unlike other screeners, Screener+ Plus also gives you access to data for cryptocurrencies. The crypto market is booming right now and there are many opportunities for investors. Screener+ Plus allows you to find the best crypto investments.
+
+    </div>
+
+
+
+
+    <div class="my-8">
+      <div class="font-bold text-[22px] mb-2">5.  Get real-time data: </div>
+      It's extremely important to have access to real-time data when you're making investment decisions. Screener+ Plus gives you real-time data so you will be able to make the best investment decisions possible.
+  </div>
+
+
+  
+  <div class="my-8">
+    <div class="font-bold text-[22px] mb-2">6. User-friendly interface: </div>
+    Whether you are a beginner investor or a seasoned pro, you will be able to use Screener+ Plus with ease. The user-friendly interface is designed to help you find the best investment opportunities quickly and easily.
+
+</div>
+
+
+
+<div class="font-bold  text-[28px] mt-12">Conclusion</div>
+As you can see, the moving average, or MA is one of the most popular and useful technical indicators that many investors and traders use to find investment opportunities. It gives you the ability to spot market trend changes and make sound investment decisions.
+If you are looking to take your investment journey to the next level, make sure to check out Screener+ Plus. It's the best stock and cryptocurrency screener on the market and it will help you find the best investment opportunities quickly and easily. You will be able to easily create custom screens with your own moving averages and find the best investments for you.
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </div>
+        
+     </div>
+
+
+
+
+
+                
+
+
+
+
+
+
+            <div class="container px-5 py-24 mx-auto border-t">
+                <div class="flex flex-wrap md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">OUR MISSION</h2>
+                <p class="mb-8 leading-relaxed">Our goal is to empower you to be more consistent with your trading method.</p>
+                <p class="mb-8 leading-relaxed">The purpose of the Screener+ Plus stock and cryptocurrency market screener is to filter out the noise, so that you can look at the assets that you want to add to your watchlist and trade.</p>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
+                <nav class="list-none mb-10">
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="/faq/">FAQ</a>
+                </li>
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="/contact-us/">Contact</a>
+                </li>
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="/terms/">Terms of Service</a>
+                </li>
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="/privacy-policy/">Privacy Policy</a>
+                </li>
+                </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PRODUCT</h2>
+                <nav class="list-none mb-10">
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="https://screener.plus/#productFeatures">Product Features</a>
+                </li>
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="/pricing/">Pricing</a>
+                </li>
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="/accounts/signup/">Try it out for free</a>
+                </li>
+                <li>
+                <a class="text-gray-600 hover:text-gray-800" href="/blog/what-is-a-stock-screener">What is a stock screener?</a>
+                </li>
+                </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SOCIAL MEDIA</h2>
+                <nav class="list-none mb-10">
+                <li>
+                <a target="_blank" href="https://twitter.com/screenerplus" class="text-gray-600 hover:text-gray-800">Twitter</a>
+                </li>
+                <li>
+                <a target="_blank" href="https://instagram.com/screenerplus" class="text-gray-600 hover:text-gray-800">Instagram</a>
+                </li>
+                <li>
+                <a target="_blank" href="https://www.tiktok.com/@screenerplus" class="text-gray-600 hover:text-gray-800">TikTok</a>
+                </li>
+                <li>
+                <a target="_blank" href="https://www.youtube.com/channel/UC4OxXXNM2pPD_0YWjdzUWcA" class="text-gray-600 hover:text-gray-800">YouTube</a>
+                </li>
+                </nav>
+                </div>
+                </div>
+                </div>
+
+</body>
+</html>
